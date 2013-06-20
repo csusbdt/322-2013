@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if ! type "pandoc" > /dev/null; then
   echo Please install Pandoc.
 else
