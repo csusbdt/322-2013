@@ -22,13 +22,13 @@
 			}
 			
 			a {
-			    color: #0381ff;
+			    color: #4F98BF;
 			    text-decoration: underline;
 			}
 			
 			    a:hover,
 			    a:focus {
-			        color: #c72f28;
+			        color: #BB5824;
 			        text-decoration: underline;
 			    }
 			    
@@ -103,11 +103,11 @@
          **/
 			
 			.page-header {
-			    border-bottom: 1px solid #ccc;
 			    position: relative;
 			    padding: 1em 2em .75em;
-			    background: #f7f7f7;
-			    box-shadow: inset rgba(0,0,0,.05) 0 -1px 1px;
+			    background: #4F98BF;
+			    box-shadow: inset rgba(0,0,0,.25) 0 -1px 1px;
+			    text-shadow: rgba(0,0,0,.5) 0 1px 1px;
 			}
 			
 			    .logo {
@@ -118,7 +118,7 @@
 			    }
 			    
 			        .logo a {
-			            color: #000;
+			            color: #fff;
 			            text-decoration: none;
 			        }
 
@@ -160,6 +160,21 @@
     			        line-height: 1.5em;
     			        font-weight: 500;
     			    }
+    			    
+    		.button {
+    		    padding: .15em .75em;
+    		    border-radius: 3px;
+    		    background-color: #eee;
+    		    color: #333;
+    		    text-decoration: none;
+    		}
+    		
+    		    .button:hover,
+    		    .button:focus {
+    		        background: #4F98BF;
+    		        color: #fff;
+    		        text-decoration: none;
+    		    }
 			
 			@media only screen and (min-width: 792px) {
 			    .container {
@@ -200,7 +215,7 @@
 			<section id='criteria'>
     			<h2>
     			    Criteria
-    			    <a href='#toc' title='Go to the Table of Contents'>Go to the Table of Contents.</a>
+    			    <a class='button' href='#toc' title='Go to the Table of Contents'>Go to the Table of Contents.</a>
     			</h2>
     			<figure>
     			<table>
@@ -269,7 +284,7 @@
 			<section id='assignments'>
     			<h2>
     			    Assignments
-    			    <a href='#toc' title='Go to the Table of Contents'>Go to the Table of Contents.</a>
+    			    <a class='button' href='#toc' title='Go to the Table of Contents'>Go to the Table of Contents.</a>
     			</h2>
     			<table>
     				<tr>
