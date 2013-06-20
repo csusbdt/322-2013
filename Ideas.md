@@ -2,6 +2,10 @@
 
 ## Class Organization
 
+0. Browsers
+	1. Rendering engines
+	2. Browser differences
+	3. How Rendering Works
 1. HTML
 	1. There is no HTML5
 	2. Use what's ready
@@ -12,6 +16,7 @@
 	2. Specificity
 	3. CSS element matching is Right-to-Left (and why that matters)
 	4. Use a Laser, Not a Shotgun
+	5. Reflows vs. Repaints
 3. Javascript
 	1. The DOM
 	2. Getting flexible
