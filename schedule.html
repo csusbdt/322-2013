@@ -6,6 +6,11 @@
 		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 		
 		<style>
+		
+	    /***
+	     * Basic Styles
+	     **/
+		
 			body {
 				margin: 0;
 				padding: 0;
@@ -54,34 +59,11 @@
 			    margin: 2em 0;
 			}
 			
-			header {
-			    border-bottom: 1px solid #ccc;
-			    position: relative;
-			    padding: 1em 2em .75em;
-			    background: #f7f7f7;
-			    box-shadow: inset rgba(0,0,0,.05) 0 -1px 1px;
-			}
-			
-			    .logo {
-			        font-size: 1.5em;
-			        line-height: 1.5em;
-			        font-weight: 500;
-			        margin: 0;
-			    }
-			    
-			        .logo a {
-			            color: #000;
-			            text-decoration: none;
-			        }
-
-			.container {
-				margin: 4em 2em;
-			}
-	
 			table {
 				border-collapse: collapse;
 				border-spacing: 0;
 				border: 1px solid #ccc;
+				width: 100%;
 			}
 			
 			tr:nth-child(2n+1) {
@@ -116,6 +98,34 @@
 				padding: .1em .25em;
 			}
 			
+        /***
+         * Design Styles
+         **/
+			
+			.page-header {
+			    border-bottom: 1px solid #ccc;
+			    position: relative;
+			    padding: 1em 2em .75em;
+			    background: #f7f7f7;
+			    box-shadow: inset rgba(0,0,0,.05) 0 -1px 1px;
+			}
+			
+			    .logo {
+			        font-size: 1.5em;
+			        line-height: 1.5em;
+			        font-weight: 500;
+			        margin: 0;
+			    }
+			    
+			        .logo a {
+			            color: #000;
+			            text-decoration: none;
+			        }
+
+			.container {
+				margin: 4em 2em;
+			}
+			
 			@media only screen and (min-width: 792px) {
 			    .container {
 			        margin: 4em auto 20em auto;
@@ -131,13 +141,13 @@
 	</head>
 		<body>
 
-        <header>
+        <header class='page-header'>
             <div class='header-content'>
                 <h1 class='logo'><a href='/' title='CSE 322 Website'>
                     CSE 322
                 </a></h1>
             </div>
-        </header>
+        </header> <!-- End .page-header -->
 
 		<div class='container'>
 		
@@ -208,7 +218,7 @@
 			</figure>
 			<figcaption>
 			    <a id='footnote-1' href='#footnote-1-source' title='Return to source'>1</a>: Please note that writing a program to produce required behavior is not good enough for a full score in this class: you must also write code that is readable by humans.  Program readability is important because real-world programs are read over and over again in the process of fixing bugs and adding new functionality.
-			</figcaption>
+			</figcaption> <!-- End Criteria -->
 			
 			<hr>
 			
@@ -216,21 +226,21 @@
 			<table>
 				<tr>
 					<th>Date</th>
-					<th>Required Reading</th>
-					<th>Codeacademy Sections</th>
+					<th>Prep</th>
 					<th>Exercises</th>
 				</tr>
 				<tr>
 					<td>TBD</td>
 					<td><a href='#' target='_blank' title='Getting Started'>Getting Started</a></td>
-					<td>N/A</td>
 					<td>
 						<ol>
 							<li>Push a blank <code>.html</code> page to your Heroku account.</li>
 						</ol>
 					</td>
 				</tr>
-			</table>
+			</table> <!-- End Assignments -->
+			
+			
 		</div> <!-- End .container -->
 
 	</body>
