@@ -146,6 +146,10 @@ code {
 	border-radius: 3px;
 	padding: .1em .25em;
 }
+
+mark {
+    background: #fff6ba;
+}
 			
 .page-header {
     position: relative;
