@@ -155,6 +155,7 @@ mark {
     position: relative;
     padding: 1em 2em .75em;
     background: #556270;
+    width: 100%;
 }
 
     .page-header a {
