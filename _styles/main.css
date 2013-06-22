@@ -154,8 +154,7 @@ mark {
 .page-header {
     position: relative;
     padding: 1em 2em .75em;
-    background: #4F98BF;
-    text-shadow: rgba(0,0,0,.5) 0 1px 1px;
+    background: #556270;
 }
 
     .page-header a {
@@ -164,10 +163,13 @@ mark {
     }
 
     .logo {
-        font-size: 1.5em;
+        font-size: 2.5em;
         line-height: 1.5em;
         font-weight: 500;
-        margin: 0;
+        border-bottom: 1px solid rgba(0,0,0,.15);
+        padding: 0 2em .33em 2em;
+        margin: 0 -2em .25em -2em;
+        -webkit-font-smoothing: antialiased;
     }
     
     .header-nav {
@@ -184,18 +186,21 @@ mark {
 	        margin-left: 0;
 	        padding: .25em 1em;
 	        border-radius: 3px;
-	        width: 100px;
 	    }
 	    
             .header-nav a:hover,
             .header-nav a:focus {
-                background-color: rgba(255,255,255,.15);
+                background-color: rgba(0,0,0,.15);
                 text-decoration: none;
             }
 
 .container {
 	margin: 4em 2em;
 }
+
+    .container h1 {
+        line-height: 1.3em;
+    }
 
     .toc nav {
         padding-left: 2em;
@@ -268,6 +273,10 @@ mark {
     
         .logo {
             width: 110px;
+            border-bottom-width: 0;
+            padding: 0;
+            margin: 0;
+            font-size: 1.5em;
         }
         
         .header-nav {
