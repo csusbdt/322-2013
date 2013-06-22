@@ -123,6 +123,7 @@ td, th {
 	border: 1px solid #ccc;
 	padding: .25em .5em;
 	vertical-align: top;
+	font-size: 13px;
 }
 
 th {
@@ -270,6 +271,7 @@ mark {
 @media only screen and (min-width: 792px) {
     td, th {
         padding: .5em 1em;
+        font-size: 1rem;
     }
 
     .container {
