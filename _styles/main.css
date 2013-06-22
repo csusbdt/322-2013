@@ -121,7 +121,7 @@ tr:nth-child(2n+1) {
 
 td, th {
 	border: 1px solid #ccc;
-	padding: .5em 1em;
+	padding: .25em .5em;
 	vertical-align: top;
 }
 
@@ -258,12 +258,20 @@ mark {
     opacity: .75;
 }
 
+.small {
+    font-size: 13px;
+}
+
 
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
 @media only screen and (min-width: 792px) {
+    td, th {
+        padding: .5em 1em;
+    }
+
     .container {
         margin: 4em auto 20em auto;
         width: 760px;
