@@ -167,15 +167,14 @@ mark {
         line-height: 1.5em;
         font-weight: 500;
         border-bottom: 1px solid rgba(0,0,0,.15);
-        padding: 0 2em .33em 2em;
-        width: 100vw;
-        margin-left: -2em;
+        padding-bottom: .33em;
+        margin-bottom: .25em;
+        margin-top: 0;
         -webkit-font-smoothing: antialiased;
     }
     
     .header-nav {
         display: block;
-        margin-left: -1em;
         padding-top: .5em;
         padding-bottom: .5em;
     }
@@ -183,16 +182,20 @@ mark {
 	    .header-nav a {
 	        display: inline;
 	        float: left;
-	        margin-right: 1em;
+	        margin-right: .95em;
 	        margin-left: 0;
-	        padding: .25em 1em;
+	        padding: .25em 0;
 	        border-radius: 3px;
 	    }
 	    
+	        .header-nav a:last-child {
+	            margin-right: 0 !important;
+	        }
+	    
             .header-nav a:hover,
             .header-nav a:focus {
-                background-color: rgba(0,0,0,.15);
-                text-decoration: none;
+                background-color: transparent;
+                text-decoration: underline;
             }
 
 .container {
@@ -292,7 +295,15 @@ mark {
         
             .header-nav a {
                 width: auto;
+                padding-left: 1.25em;
+                padding-right: 1.25em;
             }
+            
+                .header-nav a:hover,
+                .header-nav a:focus {
+                    background: rgba(0,0,0,.15);
+                    text-decoration: none;
+                }
 }
 
 @media print,
