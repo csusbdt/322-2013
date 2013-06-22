@@ -155,7 +155,6 @@ mark {
     position: relative;
     padding: 1em 2em .75em;
     background: #556270;
-    width: 100%;
 }
 
     .page-header a {
@@ -169,7 +168,8 @@ mark {
         font-weight: 500;
         border-bottom: 1px solid rgba(0,0,0,.15);
         padding: 0 2em .33em 2em;
-        margin: 0 -2em .25em -2em;
+        width: 100vw;
+        margin-left: -2em;
         -webkit-font-smoothing: antialiased;
     }
     
