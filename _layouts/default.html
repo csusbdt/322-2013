@@ -18,13 +18,17 @@
     
         {% include header.html %}
         
-        <main class='container'>
+        <div class='container'>
 
-            {{content}}
+            <main class='container-content'>
+                {{content}}
+            </main> <!-- End .container-content -->
             
             {% include sidebar.html %}
             
-        </main> <!-- End .container -->
+            <div class='clearfix'></div>
+            
+        </div> <!-- End .container -->
         
         {% include footer.html %}
 

@@ -244,6 +244,16 @@ mark {
 	        font-weight: 500;
 	    }
 	    
+	.page-sidebar {
+	    background-color: #eee;
+	    border-radius: .15em;
+	    padding: 1em;
+	    font-size: .8em;
+	    line-height: 1.3em;
+	    color: #777;
+	    display: block;
+	}
+	    
 .button {
     padding: .15em .75em;
     border-radius: 3px;
@@ -286,7 +296,7 @@ mark {
 
     .container {
         margin: 0 auto 20em auto;
-        width: 888px;
+        width: 888px; /* 760px */
         background: #fff;
         padding: 2em 4em 4em 4em;
         box-shadow: 0 1px 3px rgba(0,0,0,.1);
@@ -333,6 +343,18 @@ mark {
             content: "\230A";
             top: 4px;
             left: -1.5em;
+        }
+        
+        .container-content {
+            width: 562px;
+            float: left;
+            display: inline;
+        }
+        
+        .page-sidebar {
+            width: 166px;
+            float: right;
+            display: inline;
         }
 }
 
