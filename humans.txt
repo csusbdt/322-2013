@@ -3,13 +3,21 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Andrew Brinker -- Developer
+    Dr. David Turner -- Developer
 
 # THANKS
 
-    <name>
+    Nathan Alvarez
+    Tyrice Clark
+    Michael Monaghan
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    jQuery, Modernizr
+    - HTML
+    - CSS
+    - Javascript
+    - jQuery
+    - Modernizr
+    - Jekyll
+    - Liquid
