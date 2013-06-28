@@ -355,6 +355,9 @@ mark {
             width: 166px;
             float: right;
             display: inline;
+            margin-top: -2rem;
+            margin-right: -4rem;
+            padding: 2rem 4rem .5em 1em;
         }
 }
 
