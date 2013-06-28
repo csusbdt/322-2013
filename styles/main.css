@@ -355,9 +355,14 @@ mark {
             width: 150px;
             float: right;
             display: inline;
-            padding: 0 0 0 1em;
-            border-left: 1px solid #eee;
+            margin-top: 6.75em;
+            padding: 0;
+            background: transparent;
         }
+        
+            .page-sidebar p {
+                margin: 0;
+            }
 }
 
 @media print,
