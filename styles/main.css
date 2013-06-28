@@ -245,9 +245,9 @@ mark {
 	    }
 	    
 	.page-sidebar {
-	    background-color: #eee;
+	    background-color: #f7f7f7;
 	    border-radius: .15em;
-	    padding: 1em;
+	    padding: .5em 1em;
 	    font-size: .8em;
 	    line-height: 1.3em;
 	    color: #777;
