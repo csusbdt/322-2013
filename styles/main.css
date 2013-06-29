@@ -277,7 +277,7 @@ mark {
     }
     
 .button.light {
-    background: #fff;
+    background-color: #fff;
     border: 1px solid #dedede;
     padding: .25em .75em;
 }
@@ -292,6 +292,10 @@ mark {
 .disabled {
     pointer-events: none;
     opacity: .75;
+}
+
+.block {
+    display: block;
 }
 
 .small {
