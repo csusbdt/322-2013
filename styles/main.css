@@ -290,6 +290,13 @@ mark {
    Media Queries
    ========================================================================== */
 
+@media only screen and (max-width: 888px) {
+    h2 .button {
+        display: block;
+        margin: .5em 0;
+    }
+}
+
 @media only screen and (min-width: 888px) {
     body {
         background: #eee;
