@@ -3,21 +3,7 @@ layout: default
 title: CSE 322
 ---
 
-<h1>Welcome to the CSE 322 Website</h1>
-<p>This site contains all of the information you need for the CSE 322 class at CSUSB in the Fall 2013.</p>
-
-<section id='requirements'>
-    <h2>Requirements</h2>
-    <p>This class is all about learning <mark>how to be a web developer</mark>. In the class you will be learning HTML, CSS, and Javascript. In addition to the languages, you will also be learning best practices for web development. HTML, CSS, and Javascript are all described as easy to learn, hard to master. Practice is key to perfecting your skill with them.</p>
-    <p>The class will also be working with git, which is used to manage and record versions of your code.</p>
-</section>
-
-<section id='syllabus'>
-    <h2>Syllabus</h2>
-    <p>Don't forget to <a href='syllabus.pdf' title='Download the Syllabus' target="_blank">download the syllabus</a>.</p>
-</section>
-
-<section id='contact'>
-    <h2>Contact</h2>
-    <p>Office Hours TBA</p>
-</section>
+<div class='section-container'>
+{% capture sidebar %}{% include content/index.md %}{% endcapture %}
+{{ sidebar | markdownify }}
+</div>
