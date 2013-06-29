@@ -160,7 +160,7 @@ mark {
 			
 .page-header {
     position: relative;
-    padding: 1em 2em .75em;
+    padding: 1em 1em .75em;
     background: #556270;
 }
 
@@ -206,7 +206,7 @@ mark {
             }
 
 .container {
-	margin: 4em 2em;
+	margin: 4em 1em;
 }
 
     .container h1 {
