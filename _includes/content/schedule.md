@@ -6,7 +6,7 @@
     <nav>
         <a href='#criteria' title='Criteria'>Criteria</a>
         <a href='#assignments' title='Assignments'>Assignments</a>
-    </ol>
+    </nav>
 </section>
 
 <section id='criteria'>
@@ -76,7 +76,7 @@
 	<figcaption>
 	    <a id='footnote-1' href='#footnote-1-source' title='Return to source'>1</a>: Please note that writing a program to produce required behavior is not good enough for a full score in this class: you must also write code that is readable by humans.  Program readability is important because real-world programs are read over and over again in the process of fixing bugs and adding new functionality.
 	</figcaption>
-</section><!-- End Criteria -->
+</section>
 
 <section id='assignments'>
 	<h2>
@@ -103,4 +103,4 @@
 			</td>
 		</tr>
 	</table>
-</section><!-- End Assignments -->
+</section>
