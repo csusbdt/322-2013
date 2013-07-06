@@ -4,15 +4,26 @@
 <div id='toc' class='toc'>
     <h2>Table of Contents</h2>
     <nav>
-        <a href='#criteria' title='Criteria'>Criteria</a>
         <a href='#assignments' title='Assignments'>Assignments</a>
+        <a href='#criteria' title='Criteria'>Criteria</a>
     </nav>
 </div>
+
+<h2 id='assignments'>
+    Assignments
+    <a class='small button' href='#toc' title='Go to the Table of Contents'>Go to the Table of Contents.</a>
+</h2>
+
+- Assignment 1
+    - Date: TBD
+    - Prep: Read &ldquo;[Getting Started](# "Getting Started")&rdquo;
+    - Exercises: Push a blank <code>.html</code> page to your Heroku account.
 
 <h2 id='criteria'>
     Criteria
     <a class='small button' href='#toc' title='Go to the Table of Contents'>Go to the Table of Contents.</a>
 </h2>
+
 <figure>
 <table>
     <tr>
@@ -75,28 +86,3 @@
 <figcaption>
     <a id='footnote-1' href='#footnote-1-source' title='Return to source'>1</a>: Please note that writing a program to produce required behavior is not good enough for a full score in this class: you must also write code that is readable by humans.  Program readability is important because real-world programs are read over and over again in the process of fixing bugs and adding new functionality.
 </figcaption>
-
-<h2 id='assignments'>
-    Assignments
-    <a class='small button' href='#toc' title='Go to the Table of Contents'>Go to the Table of Contents.</a>
-</h2>
-<table>
-	<tr>
-		<th>Date</th>
-		<th>Prep</th>
-		<th>Exercises</th>
-	</tr>
-	<tr>
-		<td>TBD</td>
-		<td>
-		    <ol>
-		        <li>Read &ldquo;<a href='#' target='_blank' title='Getting Started'>Getting Started</a>&rdquo;</li>
-		    </ol>
-		</td>
-		<td>
-			<ol>
-				<li>Push a blank <code>.html</code> page to your Heroku account.</li>
-			</ol>
-		</td>
-	</tr>
-</table>
