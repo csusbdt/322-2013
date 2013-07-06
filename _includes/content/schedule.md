@@ -14,10 +14,10 @@
     <a class='small button' href='#toc' title='Go to the Table of Contents'>Go to the Table of Contents.</a>
 </h2>
 
-- Assignment 1
-    - Date: TBD
-    - Prep: Read &ldquo;[Getting Started](# "Getting Started")&rdquo;
-    - Exercises: Push a blank <code>.html</code> page to your Heroku account.
+- Assignment 1   
+    - Date: TBD   
+    - Prep: Read &ldquo;[Getting Started](# "Getting Started")&rdquo;   
+    - Exercises: Push a blank <code>.html</code> page to your Heroku account.   
 
 <h2 id='criteria'>
     Criteria
