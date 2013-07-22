@@ -1,9 +1,3 @@
-322-2013
-========
-
-This repository is for the development of curriculum for a web programming class. It is being worked on by Dr. David Turner and Andrew Brinker.
-
-Things are currently in a state of flux, and nothing here is to be considered stable or finished in any way.
-
-[Pages under construction](http://csusbdt.github.io/322-2013/)
+- [Syllabus](http://csusbdt.github.io/322-2013/Syllabus-322-2013-Fall.pdf)
+- [Course Schedule](https://github.com/csusbdt/322-2013/wiki)
 
